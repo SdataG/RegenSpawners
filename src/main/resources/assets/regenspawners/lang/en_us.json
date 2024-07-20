@@ -1,0 +1,6 @@
+{
+  "block.regenspawners.spawner_info_block": "Spawner Info Block",
+  "regenspawners.mob_type": "Mob Type: %s",
+  "regenspawners.regen_time": "Regen Time: %s",
+  "config.jade.plugin_regenspawners.spawner_info": "Displays information about spawners"
+}

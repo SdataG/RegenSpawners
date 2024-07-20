@@ -1,0 +1,28 @@
+modLoader="javafml" #mandatory
+loaderVersion="[36,)" #mandatory
+license="All rights reserved" #mandatory
+[[mods]] #mandatory
+modId="regenspawners" #mandatory
+version="1.0.0" #mandatory
+displayName="Regen Spawners Mod" #mandatory
+description='''
+This is a description of the Regen Spawners Mod.
+'''
+# This is an example TOML config file for a Forge mod.
+# It contains metadata about the mod itself and configuration options for the mod loader to process.
+# Replace "regenspawners" with your modid.
+
+# Mandatory fields for every mod.
+issueTrackerURL="http://my.issue/tracker/" #optional
+# A URL to refer people to when problems occur with this mod
+showAsResourcePack=false #optional
+# If this is true, the mod will be shown as a resource pack in the resource pack list
+# Example mod showing how to structure your mod.toml
+[[access_transformers]]
+file = "META-INF/accesstransformer.cfg"
+[[dependencies.regenspawners]] #mandatory
+modId="forge" #mandatory
+mandatory=true #mandatory
+versionRange="[36,)" #mandatory
+ordering="NONE" #mandatory
+side="BOTH" #mandatory

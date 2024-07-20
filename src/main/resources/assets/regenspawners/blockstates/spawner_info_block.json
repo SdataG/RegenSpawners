@@ -1,0 +1,5 @@
+{
+  "variants": {
+    "": { "model": "regenspawners:block/spawner_info_block" }
+  }
+}
